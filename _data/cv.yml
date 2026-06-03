@@ -1,45 +1,47 @@
 cv:
   name: Abrar Zahin Raihan
-  label: # e.g. Software Engineer, Researcher
-  email: help.ecosync@gmail.com
-  location: # e.g. Dhaka, Bangladesh
+  label: "TODO: Your title (e.g. CS Student at BUET, Software Engineer)"
+  email: zaheenraian@gmail.com
+  location: Dhaka, Bangladesh
   image: ""
-  summary: # A short bio / summary about yourself
+  summary: "TODO: Write a short bio (2-3 sentences about who you are and what you do)."
 
   social_networks:
     - network: GitHub
       username: azraihan
-    # - network: LinkedIn
-    #   username: your-linkedin
+    - network: LinkedIn
+      username: abrar-zahin-raihan-881612331
     # - network: X
-    #   username: your-twitter
+    #   username: TODO: your Twitter handle
 
   sections:
     Education:
-      - institution: Your University
-        location: City, Country
-        url: ""
-        area: Your Field
-        studyType: B.Sc. / M.Sc. / Ph.D.
-        start_date: 2020
-        end_date: 2024
-        score: ""
+      - institution: Bangladesh University of Engineering and Technology (BUET)
+        location: Dhaka, Bangladesh
+        url: https://www.buet.ac.bd/
+        area: Computer Science and Engineering (CSE)
+        studyType: "TODO: B.Sc. / M.Sc."
+        start_date: "TODO: YYYY"
+        end_date: "TODO: YYYY or present"
+        score: "TODO: CGPA or remove"
         highlights:
-          - Relevant coursework or achievement
+          - "TODO: Notable achievement, thesis, or coursework"
 
     Experience:
-      - company: Your Company / Lab
-        position: Your Role
-        location: City, Country
-        start_date: 2023
-        end_date: present
+      - company: "TODO: Company or Lab name"
+        position: "TODO: Your role"
+        location: "TODO: City, Country"
+        start_date: "TODO: YYYY"
+        end_date: "TODO: YYYY or present"
         highlights:
-          - What you did or built
+          - "TODO: What you built or achieved"
+          - "TODO: Another bullet point"
 
     Skills:
-      - category: Programming
+      - category: "TODO: e.g. Programming Languages"
         skills:
-          - Python
-          - JavaScript
+          - "TODO: Skill 1"
+          - "TODO: Skill 2"
 
-    # Add more sections as needed: Awards, Publications, Certificates, etc.
+    # TODO: Add more sections as needed:
+    # Awards, Publications, Certificates, Projects, Volunteer, etc.

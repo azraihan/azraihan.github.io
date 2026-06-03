@@ -1,10 +1,7 @@
-# Social media links and usernames
-# The socials will be displayed in the order they are defined here.
-# For more information, see: https://github.com/george-gca/jekyll-socials
-
-email: help.ecosync@gmail.com # your email address
-# github_username: azraihan # your GitHub username
-# linkedin_username: # your LinkedIn username
-# twitter_username: # your Twitter/X username
-# scholar_userid: # your Google Scholar ID
-# orcid_id: # your ORCID ID
+# Social media links — displayed on your about page and CV
+email: zaheenraian@gmail.com
+github_username: azraihan
+linkedin_username: abrar-zahin-raihan-881612331
+# twitter_username: TODO: add if you have one
+# scholar_userid: TODO: add your Google Scholar ID if you have one
+# orcid_id: TODO: add your ORCID if you have one
