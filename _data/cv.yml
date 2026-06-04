@@ -1,18 +1,21 @@
 cv:
   name: Abrar Zahin Raihan
-  label: "TODO: Your title (e.g. CS Student at BUET, Software Engineer)"
+  label: "Final-Year CSE Undergraduate at BUET | NLP · Multimodal AI · AI Systems"
   email: zaheenraian@gmail.com
   location: Dhaka, Bangladesh
   image: ""
-  summary: "TODO: Write a short bio (2-3 sentences about who you are and what you do)."
+  summary: >
+    Final-year Computer Science and Engineering student at Bangladesh University of Engineering
+    and Technology (BUET). My research sits at the intersection of NLP, multimodal AI, and AI
+    systems — with a focus on mechanistic interpretability, efficient inference, and principled
+    pipeline design. Author of four workshop papers at ACL, CVPR, and ICML 2026. Two-time
+    national/international hackathon champion.
 
   social_networks:
     - network: GitHub
       username: azraihan
     - network: LinkedIn
       username: abrar-zahin-raihan-881612331
-    # - network: X
-    #   username: TODO: your Twitter handle
 
   sections:
     Education:
@@ -20,28 +23,154 @@ cv:
         location: Dhaka, Bangladesh
         url: https://www.buet.ac.bd/
         area: Computer Science and Engineering (CSE)
-        studyType: "TODO: B.Sc. / M.Sc."
-        start_date: "TODO: YYYY"
-        end_date: "TODO: YYYY or present"
-        score: "TODO: CGPA or remove"
+        studyType: Bachelor of Science (B.Sc.)
+        start_date: "2022"
+        end_date: "2026"
         highlights:
-          - "TODO: Notable achievement, thesis, or coursework"
+          - "Research interests: NLP, Multimodal AI, AI Systems, Mechanistic Interpretability"
+
+      - institution: Notre Dame College
+        location: Dhaka, Bangladesh
+        studyType: Higher Secondary Certificate (HSC)
+        start_date: "2019"
+        end_date: "2021"
+
+      - institution: St. Joseph Higher Secondary School
+        location: Dhaka, Bangladesh
+        studyType: Secondary School Certificate (SSC)
+        start_date: "2016"
+        end_date: "2019"
 
     Experience:
-      - company: "TODO: Company or Lab name"
-        position: "TODO: Your role"
-        location: "TODO: City, Country"
-        start_date: "TODO: YYYY"
-        end_date: "TODO: YYYY or present"
+      - company: SysModeler.ai
+        position: Research Assistant (Remote)
+        location: Canton, Michigan, United States
+        url: https://www.linkedin.com/company/sysmodeler/
+        start_date: "2025-11"
+        end_date: "2026-02"
         highlights:
-          - "TODO: What you built or achieved"
-          - "TODO: Another bullet point"
+          - "Designed and implemented layout algorithms for generating structured, readable SysML diagrams"
+          - "Developed a pipeline to convert images into semantically accurate SysML representations"
+
+      - company: Syslabo Corp
+        position: Software Engineering Intern (Remote)
+        location: Tokyo, Japan
+        url: https://www.syslabo.com/
+        start_date: "2024-07"
+        end_date: "2024-09"
+        highlights:
+          - "Built a full-stack MERN application automating organizational hierarchy chart management, replacing a manual Excel-based system"
+          - "Developed dynamic UI/UX with Japanese localization using MaterialUI and GoJS"
+          - "Designed scalable database schemas and RESTful APIs for hierarchical data management"
+          - "Received best architecture recognition among all interns; received full-time job offer"
+
+    Publications:
+      - title: >
+          Causal Localization of the English Pivot in LLaVA: Mechanistic VLM Analysis
+          and Training-Free Multilingual Steering
+        authors: Abrar Zahin Raihan
+        year: "2026"
+        venue: "1st Workshop on Multilinguality in the Era of LLMs (MeLLM) @ ACL 2026"
+        highlights:
+          - "Accepted · Archival · Remote Presentation"
+          - "Localized English-pivot bottleneck in LLaVA-1.5-7B to layers 5–17 via causal activation patching"
+          - "Training-free steering vectors improve multilingual VQA by up to +6.5 pp without fine-tuning"
+
+      - title: >
+          Where Do Affordances Crystallize? Video vs. Image Self-Supervised Encoders
+          for Embodied Perception
+        authors: Abrar Zahin Raihan
+        year: "2026"
+        venue: "7th Annual Embodied AI Workshop @ CVPR 2026"
+        highlights:
+          - "Accepted · Poster"
+          - "Video SSL encoders crystallize affordance signal 4 layers earlier than image SSL encoders"
+          - "Top-3 attention heads retain full affordance signal at 5.3× compute reduction"
+
+      - title: >
+          When Does Visual Context Help? Adaptive Modality Gating for Efficient Multimodal QA
+        authors: Abrar Zahin Raihan
+        year: "2026"
+        venue: "Efficient Multimodal QA (EMM-QA) Workshop @ ICML 2026"
+        highlights:
+          - "Under Review"
+          - "AdaGate predicts from text alone whether vision encoder invocation improves QA"
+          - "Reduces vision calls by ~53% with near-identical keyword F1"
+
+      - title: >
+          SpatialCoT: Chain-of-Thought Spatial Grounding for Viewpoint-Robust 3D-LLMs
+        authors: Abrar Zahin Raihan
+        year: "2026"
+        venue: "2nd Workshop on 3D-LLM/VLA @ CVPR 2026"
+        highlights:
+          - "Under Review"
+          - "Five-step geometry-grounded CoT protocol trained on auto-annotated ProcTHOR scenes"
+          - "Reduces viewpoint-rotation accuracy degradation from 77% to 41% on Real-3DQA"
 
     Skills:
-      - category: "TODO: e.g. Programming Languages"
+      - category: Programming Languages
         skills:
-          - "TODO: Skill 1"
-          - "TODO: Skill 2"
+          - Python
+          - C / C++
+          - Java
+          - TypeScript
+          - SQL
+          - Shell / Bash
 
-    # TODO: Add more sections as needed:
-    # Awards, Publications, Certificates, Projects, Volunteer, etc.
+      - category: ML & Research
+        skills:
+          - PyTorch
+          - Mechanistic Interpretability (logit-lens, activation patching)
+          - Vision-Language Models (LLaVA, CLIP)
+          - Self-Supervised Learning
+          - NLP / Information Retrieval
+          - Generative AI / LLMs
+
+      - category: Systems & Engineering
+        skills:
+          - Docker / Kubernetes
+          - GitHub Actions (CI/CD)
+          - GCP / Azure / Terraform
+          - Prometheus / Grafana / k6
+          - FastAPI / Django / Spring Boot
+          - PostgreSQL / MongoDB / Redis
+
+    Awards:
+      - title: "IEEE VIP Cup 2025 — Champions"
+        date: "2025-07"
+        awarder: "IEEE Signal Processing Society"
+        summary: >
+          1st place among 40+ international teams in multimodal RGB-IR fusion for real-time drone
+          detection, tracking, and payload classification. Presented at ICIP 2025, Anchorage, AK.
+          Team: NeuronX.
+
+      - title: "Poridhi.io × Brain Station 23 AI Engineering Hackathon — Champions"
+        date: "2025-04"
+        awarder: "Poridhi.io & Brain Station 23"
+        summary: >
+          1st place among 86 teams (300+ participants). Built an intent-based multilingual product
+          search system with in-memory LLM inference via llama.cpp and 4-bit quantization —
+          no GPU, half the allocated hardware. Team: BUET XFACTOR.
+
+      - title: "শব্দতরী — Where Dialects Flow into Bangla: 1st Runner-Up"
+        date: "2025-11"
+        awarder: "Department of ETE, CUET · Televerse 1.0"
+        summary: >
+          Developed a low-resource ASR system transcribing speech from 20 regional Bangladeshi
+          dialects into standard Bangla using transfer learning, encoder adaptation, and
+          dialect-aware embeddings. Team: DejaView.
+
+      - title: "BUET CSE Fest Hackathon 2024 — 2nd Runner-Up"
+        date: "2024-10"
+        awarder: "BUET CSE Fest"
+        summary: "Microservices and DevOps category. Built a scalable real-time ticketing system on Azure Kubernetes Service."
+
+      - title: "Therap JavaFest 2024 — Top 10 Finalist"
+        date: "2024-09"
+        awarder: "Therap (BD) Ltd."
+        summary: "Top 10 among 1300+ participants. Developed CodeSprout, an AI-powered gamified coding education platform for children."
+
+      - title: "Code Samurai Hackathon 2024 — 10th Place"
+        date: "2024-03"
+        awarder: "BJIT Group"
+        summary: "Engineered a waste management system for DNCC; built a web app and React Native mobile app."

@@ -1,14 +1,12 @@
 {
   "basics": {
     "name": "Abrar Zahin Raihan",
-    "label": "TODO: Add your title/role (e.g. Software Engineer, CS Student, Researcher)",
+    "label": "Final-Year CSE Undergraduate at BUET | NLP · Multimodal AI · AI Systems",
     "image": "",
     "email": "zaheenraian@gmail.com",
-    "phone": "TODO: Add phone number or remove this field",
-    "summary": "TODO: Write a short bio about yourself (2-3 sentences about who you are and what you do).",
+    "phone": "+880 1799900313",
+    "summary": "Final-year Computer Science and Engineering student at Bangladesh University of Engineering and Technology (BUET). Research at the intersection of NLP, multimodal AI, and AI systems — with a focus on mechanistic interpretability, efficient inference, and principled pipeline design. Author of four workshop papers at ACL, CVPR, and ICML 2026. Two-time national/international hackathon champion.",
     "location": {
-      "address": "TODO: Add street address or remove this field",
-      "postalCode": "TODO: Add postal code or remove this field",
       "city": "Dhaka",
       "countryCode": "BD",
       "region": "Dhaka"
@@ -28,15 +26,31 @@
   },
   "work": [
     {
-      "name": "TODO: Company or Lab name",
-      "position": "TODO: Your role/position",
-      "location": "TODO: City, Country",
-      "startDate": "TODO: YYYY-MM-DD",
-      "endDate": "TODO: YYYY-MM-DD or remove if current",
-      "summary": "TODO: Brief description of the role",
+      "name": "SysModeler.ai",
+      "position": "Research Assistant (Remote)",
+      "url": "https://www.linkedin.com/company/sysmodeler/",
+      "location": "Canton, Michigan, United States",
+      "startDate": "2025-11-01",
+      "endDate": "2026-02-28",
+      "summary": "AI research assistant focused on SysML diagram generation and layout optimization.",
       "highlights": [
-        "TODO: Key achievement or responsibility",
-        "TODO: Another achievement"
+        "Designed and implemented layout algorithms to generate structured, readable, and visually consistent SysML diagrams",
+        "Developed a pipeline to convert images into semantically accurate SysML representations"
+      ]
+    },
+    {
+      "name": "Syslabo Corp",
+      "position": "Software Engineering Intern (Remote)",
+      "url": "https://www.syslabo.com/",
+      "location": "Tokyo, Japan",
+      "startDate": "2024-07-01",
+      "endDate": "2024-09-30",
+      "summary": "Built full-stack automation tooling for organizational workflows.",
+      "highlights": [
+        "Built a full-stack MERN application automating organizational hierarchy chart management, replacing a manual Excel-based system",
+        "Developed dynamic UI/UX with Japanese localization using MaterialUI and GoJS",
+        "Designed scalable database schemas and RESTful APIs for hierarchical data management",
+        "Received best architecture design recognition among all interns; received full-time job offer"
       ]
     }
   ],
@@ -47,45 +61,127 @@
       "location": "Dhaka, Bangladesh",
       "url": "https://www.buet.ac.bd/",
       "area": "Computer Science and Engineering (CSE)",
-      "studyType": "TODO: B.Sc. / M.Sc. / Ph.D.",
-      "startDate": "TODO: YYYY-MM-DD",
-      "endDate": "TODO: YYYY-MM-DD or remove if ongoing",
-      "score": "TODO: Add CGPA or remove this field",
-      "courses": [
-        "TODO: Relevant course 1",
-        "TODO: Relevant course 2"
-      ],
+      "studyType": "Bachelor of Science (B.Sc.)",
+      "startDate": "2022-11-01",
       "highlights": [
-        "TODO: Achievement or highlight during study"
+        "Research interests: NLP, Multimodal AI, AI Systems, Mechanistic Interpretability"
       ]
+    },
+    {
+      "institution": "Notre Dame College",
+      "location": "Dhaka, Bangladesh",
+      "area": "Higher Secondary Certificate (HSC)",
+      "studyType": "College",
+      "startDate": "2019-07-01",
+      "endDate": "2021-12-31"
     }
   ],
   "awards": [
     {
-      "title": "TODO: Award name",
-      "date": "TODO: YYYY-MM-DD",
-      "awarder": "TODO: Awarding organization",
-      "url": "TODO: Link to award or remove this field",
-      "summary": "TODO: Brief description of the award"
-    }
-  ],
-  "certificates": [
+      "title": "IEEE VIP Cup 2025 — Champions",
+      "date": "2025-07-01",
+      "awarder": "IEEE Signal Processing Society",
+      "url": "https://signalprocessingsociety.org/community-involvement/video-image-processing-cup",
+      "summary": "1st place among 40+ international teams in multimodal RGB-IR fusion for real-time drone detection, tracking, and payload classification. Presented at ICIP 2025, Anchorage, AK. Team: NeuronX."
+    },
     {
-      "name": "TODO: Certificate name",
-      "date": "TODO: YYYY-MM-DD",
-      "issuer": "TODO: Issuing organization (e.g. Coursera, Google, etc.)",
-      "icon": "fa-solid fa-certificate"
+      "title": "Poridhi.io × Brain Station 23 AI Engineering Hackathon — Champions",
+      "date": "2025-04-01",
+      "awarder": "Poridhi.io & Brain Station 23",
+      "summary": "1st place among 86 teams (300+ participants). Intent-based multilingual product search with in-memory LLM inference via llama.cpp and 4-bit quantization. Team: BUET XFACTOR."
+    },
+    {
+      "title": "শব্দতরী — Where Dialects Flow into Bangla: 1st Runner-Up",
+      "date": "2025-11-01",
+      "awarder": "Department of ETE, CUET · Televerse 1.0",
+      "summary": "Low-resource ASR transcribing 20 regional Bangladeshi dialects into standard Bangla via transfer learning and dialect-aware embeddings. Team: DejaView."
+    },
+    {
+      "title": "BUET CSE Fest Hackathon 2024 — 2nd Runner-Up",
+      "date": "2024-10-01",
+      "awarder": "BUET CSE Fest",
+      "summary": "Microservices and DevOps category. Scalable real-time ticketing system on Azure Kubernetes Service with CI/CD, load testing, and monitoring."
+    },
+    {
+      "title": "Therap JavaFest 2024 — Top 10 Finalist",
+      "date": "2024-09-01",
+      "awarder": "Therap (BD) Ltd.",
+      "summary": "Top 10 among 1300+ participants. CodeSprout: AI-powered gamified coding education platform for children with block-based programming, ML chatbot, and computer vision."
+    },
+    {
+      "title": "Code Samurai Hackathon 2024 — 10th Place",
+      "date": "2024-03-01",
+      "awarder": "BJIT Group",
+      "summary": "Waste management system for DNCC with algorithmic challenge solutions, a web app, and a React Native mobile app."
     }
   ],
-  "publications": [],
+  "certificates": [],
+  "publications": [
+    {
+      "name": "Causal Localization of the English Pivot in LLaVA: Mechanistic VLM Analysis and Training-Free Multilingual Steering",
+      "publisher": "1st Workshop on Multilinguality in the Era of LLMs (MeLLM) @ ACL 2026",
+      "releaseDate": "2026-07",
+      "url": "https://mellm.org/",
+      "summary": "Accepted (Archival). Localized English-pivot bottleneck in LLaVA-1.5-7B to layers 5–17 via causal activation patching. Training-free steering vectors improve multilingual VQA by up to +6.5 pp without fine-tuning."
+    },
+    {
+      "name": "Where Do Affordances Crystallize? Video vs. Image Self-Supervised Encoders for Embodied Perception",
+      "publisher": "7th Annual Embodied AI Workshop @ CVPR 2026",
+      "releaseDate": "2026-06",
+      "url": "https://embodied-ai.org/cvpr2026/",
+      "summary": "Accepted (Poster). Video SSL encoders crystallize affordance signal 4 layers earlier than image SSL. Top-3 attention heads retain full signal at 5.3× compute reduction."
+    },
+    {
+      "name": "When Does Visual Context Help? Adaptive Modality Gating for Efficient Multimodal QA",
+      "publisher": "Efficient Multimodal QA (EMM-QA) Workshop @ ICML 2026",
+      "releaseDate": "2026-07",
+      "summary": "Under Review. AdaGate predicts from text alone whether vision encoder invocation helps. Reduces vision calls by ~53% with near-identical keyword F1."
+    },
+    {
+      "name": "SpatialCoT: Chain-of-Thought Spatial Grounding for Viewpoint-Robust 3D-LLMs",
+      "publisher": "2nd Workshop on 3D-LLM/VLA @ CVPR 2026",
+      "releaseDate": "2026-06",
+      "summary": "Under Review. Five-step geometry-grounded CoT reduces viewpoint-rotation accuracy degradation from 77% to 41% on Real-3DQA."
+    }
+  ],
   "skills": [
     {
-      "name": "TODO: Skill category (e.g. Programming Languages)",
-      "level": "TODO: Beginner / Intermediate / Advanced",
+      "name": "ML & Research",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "PyTorch",
+        "Mechanistic Interpretability",
+        "Vision-Language Models",
+        "NLP / Information Retrieval",
+        "Self-Supervised Learning",
+        "LLMs / Generative AI"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Advanced",
       "icon": "fa-solid fa-code",
       "keywords": [
-        "TODO: Skill 1",
-        "TODO: Skill 2"
+        "Python",
+        "C / C++",
+        "Java",
+        "TypeScript",
+        "SQL",
+        "Shell / Bash"
+      ]
+    },
+    {
+      "name": "Systems & DevOps",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "Docker / Kubernetes",
+        "GitHub Actions",
+        "GCP / Azure / Terraform",
+        "Prometheus / Grafana / k6",
+        "FastAPI / Django / Spring Boot",
+        "PostgreSQL / MongoDB / Redis"
       ]
     }
   ],
@@ -97,17 +193,39 @@
     },
     {
       "language": "English",
-      "fluency": "TODO: Fluent / Professional / Conversational",
+      "fluency": "Fluent",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "TODO: Interest area (e.g. Machine Learning, Systems, Web Dev)",
-      "icon": "fa-solid fa-tag",
+      "name": "Natural Language Processing & Information Retrieval",
+      "icon": "fa-solid fa-magnifying-glass",
       "keywords": [
-        "TODO: Specific interest 1",
-        "TODO: Specific interest 2"
+        "Multilingual NLP",
+        "Dense Retrieval",
+        "Retrieval-Augmented Generation",
+        "Low-Resource NLP"
+      ]
+    },
+    {
+      "name": "Multimodal AI Systems",
+      "icon": "fa-solid fa-layer-group",
+      "keywords": [
+        "Vision-Language Models",
+        "Mechanistic Interpretability",
+        "Efficient Inference",
+        "Adaptive Computation"
+      ]
+    },
+    {
+      "name": "AI Systems & Programming",
+      "icon": "fa-solid fa-diagram-project",
+      "keywords": [
+        "Declarative AI Programming",
+        "Prompt Optimization",
+        "LLM Pipeline Design",
+        "Inference-Time Scaling"
       ]
     }
   ],

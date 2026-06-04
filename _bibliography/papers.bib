@@ -1,2 +1,59 @@
 ---
 ---
+
+@inproceedings{raihan2026causal,
+  title     = {Causal Localization of the {English} Pivot in {LLaVA}: Mechanistic {VLM} Analysis and Training-Free Multilingual Steering},
+  author    = {Raihan, Abrar Zahin},
+  booktitle = {Proceedings of the 1st Workshop on Multilinguality in the Era of Large Language Models ({MeLLM}) at {ACL} 2026},
+  year      = {2026},
+  month     = jul,
+  address   = {San Diego, California},
+  publisher = {Association for Computational Linguistics},
+  abbr      = {ACL},
+  note      = {Accepted · Archival · Remote},
+  abstract  = {Multilingual vision-language models (VLMs) consistently underperform on non-English visual queries, yet the internal mechanism behind this disparity remains unknown. As a focused case study on LLaVA-1.5-7B, we apply logit-lens analysis and causal activation patching to show that non-English visual queries are routed through an English-biased representational bottleneck in layers 5–17, extending the English-pivot phenomenon of Wendler et al. (2024) to the multimodal setting. Peak causal influence occurs at layer 8 (AIE=0.49, averaged across languages), with all measurable pivot signal running through text-token positions. Without meaningful visual content (blank-image condition), language-specific representations do not emerge at any layer, showing that the pivot is image-content-dependent rather than triggered by any visual input. Building on these findings, we derive training-free language-steering vectors at the mechanistically identified pivot layers, improving Russian VQA by +6.5 pp and Portuguese by +4.0 pp on MMMB without any fine-tuning — the latter surpassing the English baseline.},
+  keywords  = {mechanistic interpretability, vision-language models, multilingual NLP, English pivot, activation patching, LLaVA},
+  html      = {https://mellm.org/},
+  selected  = {true}
+}
+
+@inproceedings{raihan2026affordances,
+  title     = {Where Do Affordances Crystallize? Video vs. Image Self-Supervised Encoders for Embodied Perception},
+  author    = {Raihan, Abrar Zahin},
+  booktitle = {Proceedings of the 7th Annual Embodied {AI} Workshop at {CVPR} 2026},
+  year      = {2026},
+  month     = jun,
+  address   = {Denver, Colorado},
+  abbr      = {CVPR},
+  note      = {Accepted · Poster},
+  abstract  = {Self-supervised video models are strong backbones for robotic perception. We probe 25 layer positions of architecturally matched ViT-L encoders (V-JEPA 2, V-JEPA 2.1, DINOv2) on the UMD Part Affordance Dataset and show that video SSL models crystallize affordance signal at layer 19 — four layers earlier than DINOv2 (image SSL, layer 23), suggesting a consistent effect of temporal predictive objectives on representation depth. Both V-JEPA variants share the same peak depth, yet V-JEPA 2.1's intermediate-layer supervision yields markedly stronger early-layer representations (layer 2 mAP: 92.2 vs. 85.0 for V-JEPA 2). Head ablation at each peak layer further reveals a sparse set of attention heads that concentrate the affordance signal; keeping only the top-3 heads achieves a 5.3× attention compute reduction with ≤0.1 mAP loss.},
+  keywords  = {affordance detection, self-supervised learning, video encoders, mechanistic interpretability, embodied AI, V-JEPA, DINOv2},
+  html      = {https://embodied-ai.org/cvpr2026/},
+  selected  = {true}
+}
+
+@inproceedings{raihan2026adagate,
+  title     = {When Does Visual Context Help? Adaptive Modality Gating for Efficient Multimodal {QA}},
+  author    = {Raihan, Abrar Zahin},
+  booktitle = {Proceedings of the Efficient Multimodal Question Answering ({EMM-QA}) Workshop at {ICML} 2026},
+  year      = {2026},
+  month     = jul,
+  address   = {Seoul, South Korea},
+  abbr      = {ICML},
+  note      = {Under Review},
+  abstract  = {Vision encoders are expensive. In streaming, incremental question answering — where questions arrive one sentence at a time and a system must decide both what to answer and when to commit — running the full vision encoder at every step compounds this cost unnecessarily. We present AdaGate, a lightweight Modality Gate that, given only the current partial question text, predicts whether activating the vision encoder will materially improve the answer. Trained on image utility labels derived from a frozen vision-language model on WebQA, AdaGate reduces vision encoder calls to ~46.5% while maintaining near-always-vision keyword F1. We further validate gate specificity on QANTA quizbowl questions — text-only by construction — where the gate fires on fewer than 2.9% of inputs despite having no explicit text-only supervision.},
+  keywords  = {multimodal question answering, modality gating, efficient inference, vision-language models, adaptive computation, WebQA}
+}
+
+@inproceedings{raihan2026spatialcot,
+  title     = {{SpatialCoT}: Chain-of-Thought Spatial Grounding for Viewpoint-Robust {3D-LLMs}},
+  author    = {Raihan, Abrar Zahin},
+  booktitle = {Proceedings of the 2nd Workshop on {3D-LLM/VLA}: Bridging Language, Vision and Action in 3D Environments at {CVPR} 2026},
+  year      = {2026},
+  month     = jun,
+  address   = {Denver, Colorado},
+  abbr      = {CVPR},
+  note      = {Under Review},
+  abstract  = {Despite impressive performance on established 3D scene question-answering benchmarks, recent work reveals that state-of-the-art 3D large language models (3D-LLMs) exploit statistical patterns in training text rather than genuine spatial geometry. Ma et al. show that leading models lose up to 92% of their accuracy when scenes are presented under systematic viewpoint rotations — a failure mode inconsistent with true geometric understanding. We propose SpatialCoT (Spatial Chain-of-Thought), which addresses this by requiring the model to reason through five grounded steps — Localize, Orient, Enumerate, Compute, Answer — before producing its response. To train this behavior without manual annotation, we build an automatic pipeline that generates ~8,000 CoT-annotated training samples from ProcTHOR procedural scenes rendered with AI2-THOR. SpatialCoT improves Real-3DQA accuracy and reduces the relative accuracy drop at 180° scene rotation from 77% to 41%, demonstrating that grounding spatial reasoning in explicit intermediate steps yields a more robust 3D understanding.},
+  keywords  = {3D scene question answering, chain-of-thought reasoning, spatial grounding, viewpoint robustness, vision-language models, LoRA}
+}
