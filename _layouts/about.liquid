@@ -1,0 +1,220 @@
+---
+layout: default
+---
+
+<style>
+/* Selected Projects — dark mode */
+.az-proj-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+[data-theme="dark"] .az-proj-card { border-color: #333; }
+
+.az-proj-desc { color: #555; }
+[data-theme="dark"] .az-proj-desc { color: #bbb; }
+
+.az-badge-ctx { background: #f1f5f9; color: #475569; }
+[data-theme="dark"] .az-badge-ctx { background: #2a2a2a; color: #94a3b8; }
+
+.az-badge-green { background: #dcfce7; color: #15803d; }
+[data-theme="dark"] .az-badge-green { background: #14532d; color: #86efac; }
+
+.az-badge-red { background: #fee2e2; color: #b91c1c; }
+[data-theme="dark"] .az-badge-red { background: #450a0a; color: #fca5a5; }
+
+.az-badge-purple { background: #ede9fe; color: #6d28d9; }
+[data-theme="dark"] .az-badge-purple { background: #2e1065; color: #c4b5fd; }
+
+.az-exp-border { border-bottom: 1px solid #e0e0e0; }
+[data-theme="dark"] .az-exp-border { border-bottom-color: #333; }
+
+.az-exp-meta { color: #555; }
+[data-theme="dark"] .az-exp-meta { color: #bbb; }
+
+.az-exp-date { color: #555; }
+[data-theme="dark"] .az-exp-date { color: #bbb; }
+
+.az-exp-list { color: #555; }
+[data-theme="dark"] .az-exp-list { color: #bbb; }
+
+.az-logo-syslabo { background: #fff; }
+[data-theme="dark"] .az-logo-syslabo { background: #2a2a2a; }
+</style>
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"><strong>Selected Publications</strong></a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Selected projects -->
+    {% if page.selected_projects %}
+      <h2 style="margin-top: 2rem;">
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit"><strong>Selected Projects</strong></a>
+      </h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.2rem; margin-bottom: 2rem;">
+
+        <div class="az-proj-card">
+          <img src="{{ '/assets/img/vip1.jpg' | relative_url }}" alt="IEEE VIP Cup 2025" style="width: 100%; height: 160px; object-fit: cover;">
+          <div style="padding: 0.9rem 1rem 1rem;">
+            <div style="margin-bottom: 0.4rem;">
+              <code><span style="color:#f59e0b;">●</span> Champions</code><br><code>IEEE · International</code><br><code>Multimodal Systems</code>
+            </div>
+            <h4 style="margin: 0.5rem 0 0.3rem; font-size: 0.95rem; font-weight: 700;">IEEE VIP Cup 2025</h4>
+            <p class="az-proj-desc" style="margin: 0 0 0.7rem; font-size: 0.85rem; line-height: 1.5;"><strong>Multimodal</strong> RGB-IR fusion for real-time <strong>UAV detection</strong>, <strong>tracking</strong>, and <strong>payload classification</strong>. 1st place among 40+ international teams. Presented at ICIP 2025, Anchorage, AK, USA.</p>
+            <a href="{{ '/projects/ieee_vip_cup/' | relative_url }}" style="font-size: 0.85rem; font-weight: 600;">Read More →</a>
+          </div>
+        </div>
+
+        <div class="az-proj-card">
+          <img src="{{ '/assets/img/poridhi1.jpg' | relative_url }}" alt="Poridhi AI Hackathon" style="width: 100%; height: 160px; object-fit: cover;">
+          <div style="padding: 0.9rem 1rem 1rem;">
+            <div style="margin-bottom: 0.4rem;">
+              <code><span style="color:#f59e0b;">●</span> Champions</code><br><code>National</code><br><code>AI Hackathon</code>
+            </div>
+            <h4 style="margin: 0.5rem 0 0.3rem; font-size: 0.95rem; font-weight: 700;">Poridhi.io × BrainStation23 AI Hackathon</h4>
+            <p class="az-proj-desc" style="margin: 0 0 0.7rem; font-size: 0.85rem; line-height: 1.5;">Built a <strong>retrieval-augmented</strong>, intent-based <strong>multilingual search</strong> system — decomposing user queries into <strong>semantic intent</strong> before <strong>dense retrieval</strong> over a product corpus. Open to professionals; 1st place among 86 teams.</p>
+            <a href="{{ '/projects/poridhi_search/' | relative_url }}" style="font-size: 0.85rem; font-weight: 600;">Read More →</a>
+          </div>
+        </div>
+
+        <div class="az-proj-card">
+          <img src="{{ '/assets/img/asr1.jpg' | relative_url }}" alt="ASR Bangla Dialects" style="width: 100%; height: 160px; object-fit: cover;">
+          <div style="padding: 0.9rem 1rem 1rem;">
+            <div style="margin-bottom: 0.4rem;">
+              <code><span style="color:#94a3b8;">●</span> 1st Runner-Up</code><br><code>Multimodal NLP</code>
+            </div>
+            <h4 style="margin: 0.5rem 0 0.3rem; font-size: 0.95rem; font-weight: 700;">শব্দতরী — Bangla Dialect ASR</h4>
+            <p class="az-proj-desc" style="margin: 0 0 0.7rem; font-size: 0.85rem; line-height: 1.5;">A <strong>multimodal NLP</strong> task — bridging the <strong>acoustic modality</strong> (dialectal speech) and the <strong>text modality</strong> (standard Bangla) across 20 <strong>low-resource</strong> regional varieties. Built on <strong>cross-lingual transfer</strong> and dialect-conditioned representations, highlighting the data-scarcity challenges central to <strong>multilingual NLP</strong>.</p>
+            <a href="{{ '/projects/asr_bangla/' | relative_url }}" style="font-size: 0.85rem; font-weight: 600;">Read More →</a>
+          </div>
+        </div>
+
+      </div>
+    {% endif %}
+
+    <!-- Experience -->
+    {% if page.show_experience %}
+      <h2 style="margin-top: 2rem;"><strong>Work Experience</strong></h2>
+      <div style="margin-bottom: 2rem;">
+
+        <div class="az-exp-border" style="display:flex; gap:1rem; align-items:flex-start; padding: 1rem 0;">
+          <div style="flex-shrink:0; width:44px; height:44px; border-radius:8px; overflow:hidden; background:#0d0d0d;">
+            <img src="{{ '/assets/img/sysmodeler.jpg' | relative_url }}" alt="SysModeler.ai" style="width:100%; height:100%; object-fit:cover;">
+          </div>
+          <div style="flex:1;">
+            <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:0.3rem;">
+              <strong style="font-size:0.95rem;">Research Assistant</strong>
+              <span class="az-exp-date" style="font-size:0.8rem;">Nov 2025 – Feb 2026</span>
+            </div>
+            <div class="az-exp-meta" style="font-size:0.88rem; margin-top:1px;">
+              <a href="https://www.linkedin.com/company/sysmodeler/" target="_blank" style="font-weight:600;">SysModeler.ai</a>
+              &nbsp;·&nbsp; <code>Canton, Michigan, USA</code> &nbsp;·&nbsp; <code>Remote</code>
+            </div>
+            <ul class="az-exp-list" style="margin:0.4rem 0 0; font-size:0.85rem; line-height:1.6; padding-left:1.1rem;">
+              <li>Designed and implemented layout algorithms to generate structured, readable, and visually consistent SysML diagrams</li>
+              <li>Developed a <strong>retrieval-augmented</strong> image-to-SysML pipeline — given an input image, the system <strong>retrieves</strong> structurally similar exemplars as anchors to guide generation of semantically accurate SysML representations; grounding <strong>multimodal output</strong> in <strong>retrieved references</strong> to enforce structural consistency</li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="display:flex; gap:1rem; align-items:flex-start; padding: 1rem 0;">
+          <div class="az-logo-syslabo" style="flex-shrink:0; width:44px; height:44px; border-radius:8px; overflow:hidden;">
+            <img src="{{ '/assets/img/syslabo.png' | relative_url }}" alt="Syslabo Corp" style="width:100%; height:100%; object-fit:cover;">
+          </div>
+          <div style="flex:1;">
+            <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:0.3rem;">
+              <strong style="font-size:0.95rem;">Software Engineering Intern</strong>
+              <span class="az-exp-date" style="font-size:0.8rem;">Jul 2024 – Sep 2024</span>
+            </div>
+            <div class="az-exp-meta" style="font-size:0.88rem; margin-top:1px;">
+              <a href="https://www.syslabo.com/" target="_blank" style="font-weight:600;">Syslabo Corp</a>
+              &nbsp;·&nbsp; <code>Tokyo, Japan</code> &nbsp;·&nbsp; <code>Remote</code>
+            </div>
+            <ul class="az-exp-list" style="margin:0.4rem 0 0; font-size:0.85rem; line-height:1.6; padding-left:1.1rem;">
+              <li>Automated creation and tracking of organizational hierarchy charts, replacing a manual Excel-based system with a full-stack MERN application</li>
+              <li>Designed scalable database schemas and RESTful APIs for efficient hierarchical data management</li>
+              <li>Received best architecture design recognition among all interns; secured a full-time job offer</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% social_links %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center_margin.liquid %}
+      {% else %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
+    {% endif %}
+  </article>
+</div>

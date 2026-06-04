@@ -1,15 +1,12 @@
 cv:
   name: Abrar Zahin Raihan
-  label: "Final-Year CSE Undergraduate at BUET | NLP · Multimodal AI · AI Systems"
+  label: "Junior-Year CSE Undergraduate at BUET"
+  interests: "NLP &middot; Information Retrieval &middot; Multimodal AI &middot; AI Systems &middot; Computer Vision &middot; Machine Learning &middot; Mechanistic Interpretability"
   email: zaheenraian@gmail.com
   location: Dhaka, Bangladesh
   image: ""
   summary: >
-    Final-year Computer Science and Engineering student at Bangladesh University of Engineering
-    and Technology (BUET). My research sits at the intersection of NLP, multimodal AI, and AI
-    systems — with a focus on mechanistic interpretability, efficient inference, and principled
-    pipeline design. Author of four workshop papers at ACL, CVPR, and ICML 2026. Two-time
-    national/international hackathon champion.
+    A junior-year Computer Science and Engineering student at [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/), working at the intersection of **multimodal AI**, **natural language processing**, and **AI systems**.
 
   social_networks:
     - network: GitHub
@@ -44,7 +41,7 @@ cv:
     Experience:
       - company: SysModeler.ai
         position: Research Assistant (Remote)
-        location: Canton, Michigan, United States
+        location: "Canton, Michigan,<br>United States"
         url: https://www.linkedin.com/company/sysmodeler/
         start_date: "2025-11"
         end_date: "2026-02"
@@ -68,44 +65,36 @@ cv:
       - title: >
           Causal Localization of the English Pivot in LLaVA: Mechanistic VLM Analysis
           and Training-Free Multilingual Steering
-        authors: Abrar Zahin Raihan
-        year: "2026"
-        venue: "1st Workshop on Multilinguality in the Era of LLMs (MeLLM) @ ACL 2026"
-        highlights:
-          - "Accepted · Archival · Remote Presentation"
-          - "Localized English-pivot bottleneck in LLaVA-1.5-7B to layers 5–17 via causal activation patching"
-          - "Training-free steering vectors improve multilingual VQA by up to +6.5 pp without fine-tuning"
+        date: "2026-07"
+        venue: "MeLLM @ ACL 2026"
+        summary: "<em>In Proceedings of the <a href='https://mellm.org/' target='_blank'>1st Workshop on Multilinguality in the Era of Large Language Models (MeLLM)</a> at ACL 2026</em><br>
+          <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Archival</b></u>
+          <br><small style='color:#888;'>To appear in the ACL Anthology after proceedings are finalized. Will be available soon.</small>"
 
       - title: >
           Where Do Affordances Crystallize? Video vs. Image Self-Supervised Encoders
           for Embodied Perception
-        authors: Abrar Zahin Raihan
-        year: "2026"
-        venue: "7th Annual Embodied AI Workshop @ CVPR 2026"
-        highlights:
-          - "Accepted · Poster"
-          - "Video SSL encoders crystallize affordance signal 4 layers earlier than image SSL encoders"
-          - "Top-3 attention heads retain full affordance signal at 5.3× compute reduction"
+        date: "2026-06"
+        venue: "EAI @ CVPR 2026"
+        summary: "<em>In Proceedings of the <a href='https://embodied-ai.org/cvpr2026/' target='_blank'>7th Annual Embodied AI (EAI) Workshop</a> at CVPR 2026</em><br>
+          <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Non-archival</b></u> · <u><b>Poster</b></u>
+          <br><small style='color:#888;'>Paper will be released on the workshop website after the conference. Will be available soon.</small>"
 
       - title: >
           When Does Visual Context Help? Adaptive Modality Gating for Efficient Multimodal QA
-        authors: Abrar Zahin Raihan
-        year: "2026"
-        venue: "Efficient Multimodal QA (EMM-QA) Workshop @ ICML 2026"
-        highlights:
-          - "Under Review"
-          - "AdaGate predicts from text alone whether vision encoder invocation improves QA"
-          - "Reduces vision calls by ~53% with near-identical keyword F1"
+        date: "2026-07"
+        venue: "EMM-QA @ ICML 2026"
+        summary: "<em>In Proceedings of the <a href='https://qanta-org.github.io/competition/2026/call-for-papers/' target='_blank'>Efficient Multimodal QA (EMM-QA) Workshop</a> at ICML 2026</em><br>
+          <span class='az-under-review' style='background:#fde8d8;color:#f0a060;font-weight:600;padding:1px 7px;border-radius:4px;font-size:0.82em;'>Under Review</span>
+          <br><small style='color:#888;'>arXiv preprint available soon.</small>"
 
       - title: >
           SpatialCoT: Chain-of-Thought Spatial Grounding for Viewpoint-Robust 3D-LLMs
-        authors: Abrar Zahin Raihan
-        year: "2026"
-        venue: "2nd Workshop on 3D-LLM/VLA @ CVPR 2026"
-        highlights:
-          - "Under Review"
-          - "Five-step geometry-grounded CoT protocol trained on auto-annotated ProcTHOR scenes"
-          - "Reduces viewpoint-rotation accuracy degradation from 77% to 41% on Real-3DQA"
+        date: "2026-06"
+        venue: "3D-LLM/VLA @ CVPR 2026"
+        summary: "<em>In Proceedings of the <a href='https://3d-llm-vla.github.io/' target='_blank'>2nd Workshop on 3D-LLM/VLA</a> at CVPR 2026</em><br>
+          <span class='az-under-review' style='background:#fde8d8;color:#f0a060;font-weight:600;padding:1px 7px;border-radius:4px;font-size:0.82em;'>Under Review</span>
+          <br><small style='color:#888;'>arXiv preprint available soon.</small>"
 
     Skills:
       - category: Programming Languages
