@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://azraihan.github.io/az_raihan/sitemap.xml
+Sitemap: https://azraihan.github.io/sitemap.xml
