@@ -29,6 +29,6 @@ latest_posts:
   limit: 3
 ---
 
-I'm a junior-year Computer Science and Engineering student at [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/), working at the intersection of **multimodal AI**, **natural language processing**, and **AI systems**.
+I'm a junior-year [Computer Science and Engineering](https://cse.buet.ac.bd/) student at [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/), working at the intersection of **multimodal AI**, **natural language processing**, and **AI systems**.
 
 <!-- Most of my work starts with a question about *why* a model fails or behaves a certain way. My work on the English-pivot bottleneck in LLaVA and on where video encoders crystallize affordance signal are both probing studies — trying to locate specific mechanisms inside neural networks. The efficiency and reasoning work (AdaGate, SpatialCoT) follows from the same instinct: once you understand what a model is actually doing, you can make smarter decisions about when to invoke what, or how to elicit more reliable behavior from it. -->

@@ -65,4 +65,4 @@ Key decisions driven by the low-resource constraints:
 ---
 
 ## Outcome
-
+**1st Runner-up** among 80+ teams and 300+ participants.
