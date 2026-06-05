@@ -34,6 +34,8 @@ The task involved three simultaneous objectives on synchronized RGB and infrared
 
 The challenge required systems to remain robust under severe environmental distortions: Gaussian blur, motion artifacts, camera instability, and additive white Gaussian noise (AWGN) — while maintaining real-time performance.
 
+Find more [here](https://2025.ieeeicip.org/wp-content/uploads/sites/679/2025-VIP-Cup-Competition-Official-Document_Version-1.2-with-extended-deadlines.pdf).
+
 ---
 
 ## Our Approach
