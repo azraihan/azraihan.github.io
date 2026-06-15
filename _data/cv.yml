@@ -57,13 +57,6 @@ cv:
           <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Non-archival</b></u> · <u><b>Poster</b></u>
           <br><small style='color:#888;'>Paper will be released on the workshop website after the conference. Will be available soon.</small>"
 
-      - title: >
-          When Does Visual Context Help? Adaptive Modality Gating for Efficient Multimodal QA
-        date: "2026-07"
-        venue: "EMM-QA @ ICML 2026"
-        summary: "<em>In Proceedings of the <a href='https://qanta-org.github.io/competition/2026/call-for-papers/' target='_blank'>Efficient Multimodal QA (EMM-QA) Workshop</a> at ICML 2026</em><br>
-          <span class='az-under-review' style='background:#fde8d8;color:#f0a060;font-weight:600;padding:1px 7px;border-radius:4px;font-size:0.82em;'>Under Review</span>
-          <br><small style='color:#888;'>arXiv preprint available soon.</small>"
 
       - title: >
           SpatialCoT: Chain-of-Thought Spatial Grounding for Viewpoint-Robust 3D-LLMs
