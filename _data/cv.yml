@@ -45,8 +45,7 @@ cv:
         date: "2026-07"
         venue: "MeLLM @ ACL 2026"
         summary: "<em>In Proceedings of the <a href='https://mellm.org/' target='_blank'>1st Workshop on Multilinguality in the Era of Large Language Models (MeLLM)</a> at ACL 2026</em><br>
-          <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Archival</b></u>
-          <br><small style='color:#888;'>To appear in the ACL Anthology after proceedings are finalized. Will be available soon.</small>"
+          <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Archival</b></u>"
 
       - title: >
           Where Do Affordances Crystallize? Video vs. Image Self-Supervised Encoders
@@ -54,17 +53,8 @@ cv:
         date: "2026-06"
         venue: "EAI @ CVPR 2026"
         summary: "<em>In Proceedings of the <a href='https://embodied-ai.org/cvpr2026/' target='_blank'>7th Annual Embodied AI (EAI) Workshop</a> at CVPR 2026</em><br>
-          <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Non-archival</b></u> · <u><b>Poster</b></u>
-          <br><small style='color:#888;'>Paper will be released on the workshop website after the conference. Will be available soon.</small>"
+          <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Non-archival</b></u> · <u><b>Poster</b></u>"
 
-
-      - title: >
-          SpatialCoT: Chain-of-Thought Spatial Grounding for Viewpoint-Robust 3D-LLMs
-        date: "2026-06"
-        venue: "3D-LLM/VLA @ CVPR 2026"
-        summary: "<em>In Proceedings of the <a href='https://3d-llm-vla.github.io/' target='_blank'>2nd Workshop on 3D-LLM/VLA</a> at CVPR 2026</em><br>
-          <span class='az-under-review' style='background:#fde8d8;color:#f0a060;font-weight:600;padding:1px 7px;border-radius:4px;font-size:0.82em;'>Under Review</span>
-          <br><small style='color:#888;'>arXiv preprint available soon.</small>"
 
     Experience:
       - company: SysModeler.ai

@@ -121,14 +121,14 @@
       "name": "Causal Localization of the English Pivot in LLaVA: Mechanistic VLM Analysis and Training-Free Multilingual Steering",
       "publisher": "1st Workshop on Multilinguality in the Era of LLMs (MeLLM) @ ACL 2026",
       "releaseDate": "2026-07",
-      "url": "https://mellm.org/",
+      "url": "https://aclanthology.org/2026.mellm-1.25/",
       "summary": "Accepted (Archival). Localized English-pivot bottleneck in LLaVA-1.5-7B to layers 5–17 via causal activation patching. Training-free steering vectors improve multilingual VQA by up to +6.5 pp without fine-tuning."
     },
     {
       "name": "Where Do Affordances Crystallize? Video vs. Image Self-Supervised Encoders for Embodied Perception",
       "publisher": "7th Annual Embodied AI Workshop @ CVPR 2026",
       "releaseDate": "2026-06",
-      "url": "https://embodied-ai.org/cvpr2026/",
+      "url": "https://embodied-ai.org/papers/2026/32_Where_Do_Affordances_Crysta.pdf",
       "summary": "Accepted (Poster). Video SSL encoders crystallize affordance signal 4 layers earlier than image SSL. Top-3 attention heads retain full signal at 5.3× compute reduction."
     },
     {
@@ -136,12 +136,6 @@
       "publisher": "Efficient Multimodal QA (EMM-QA) Workshop @ ICML 2026",
       "releaseDate": "2026-07",
       "summary": "Under Review. AdaGate predicts from text alone whether vision encoder invocation helps. Reduces vision calls by ~53% with near-identical keyword F1."
-    },
-    {
-      "name": "SpatialCoT: Chain-of-Thought Spatial Grounding for Viewpoint-Robust 3D-LLMs",
-      "publisher": "2nd Workshop on 3D-LLM/VLA @ CVPR 2026",
-      "releaseDate": "2026-06",
-      "summary": "Under Review. Five-step geometry-grounded CoT reduces viewpoint-rotation accuracy degradation from 77% to 41% on Real-3DQA."
     }
   ],
   "skills": [
