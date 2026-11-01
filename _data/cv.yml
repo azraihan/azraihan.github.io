@@ -40,6 +40,15 @@ cv:
 
     Publications:
       - title: >
+          MedCAR: Conflict-Aware Multi-Agent Reasoning for Multimodal Clinical AI
+        date: "2026-12"
+        venue: "WMHS & GenAI4Health @ NeurIPS 2026"
+        summary: "<em><a href='https://wmhs-neurips.github.io/WMHS/' target='_blank'>The First Workshop on World Models for High-Stakes Health (WMHS)</a> at NeurIPS 2026, Atlanta</em><br>
+          <em><a href='https://aihealth.ischool.utexas.edu/GenAI4HealthNeurips2026/' target='_blank'>The Third Workshop on GenAI for Health: Agentic Systems, Clinical Trust, and Future Potential</a> at NeurIPS 2026, Sydney</em><br>
+          <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Non-archival</b></u> · <u><b>Poster</b></u>
+          <br><small style='color:#888;'>Paper will be available after the proceedings.</small>"
+
+      - title: >
           Causal Localization of the English Pivot in LLaVA: Mechanistic VLM Analysis
           and Training-Free Multilingual Steering
         date: "2026-07"

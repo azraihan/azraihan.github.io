@@ -118,6 +118,13 @@
   "certificates": [],
   "publications": [
     {
+      "name": "MedCAR: Conflict-Aware Multi-Agent Reasoning for Multimodal Clinical AI",
+      "publisher": "World Models for High-Stakes Health (WMHS) Workshop @ NeurIPS 2026; Third Workshop on GenAI for Health @ NeurIPS 2026",
+      "releaseDate": "2026-12",
+      "url": "https://github.com/mninadmnobo/MedCAR",
+      "summary": "Accepted (Non-archival, Poster) at both workshops. Conflict-aware multi-agent framework for multimodal clinical AI; 58.57% accuracy on ChestAgentBench-X (vs. 54.47% strongest baseline) and 71.8% on ChestAgentBench, outperforming GPT-4o and MedRAX."
+    },
+    {
       "name": "Causal Localization of the English Pivot in LLaVA: Mechanistic VLM Analysis and Training-Free Multilingual Steering",
       "publisher": "1st Workshop on Multilinguality in the Era of LLMs (MeLLM) @ ACL 2026",
       "releaseDate": "2026-07",

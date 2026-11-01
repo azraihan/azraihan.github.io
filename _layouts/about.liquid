@@ -38,6 +38,19 @@ layout: default
 .az-exp-list { color: #555; }
 [data-theme="dark"] .az-exp-list { color: #bbb; }
 
+/* Publications — Selected / All toggle */
+.az-pub-toggle { display: inline-flex; border: 1px solid #e0e0e0; border-radius: 6px; overflow: hidden; }
+[data-theme="dark"] .az-pub-toggle { border-color: #333; }
+.az-pub-btn {
+  background: transparent; border: 0; padding: 0.3rem 0.85rem;
+  font-size: 0.85rem; font-weight: 600; color: #555; cursor: pointer;
+}
+[data-theme="dark"] .az-pub-btn { color: #bbb; }
+.az-pub-btn + .az-pub-btn { border-left: 1px solid #e0e0e0; }
+[data-theme="dark"] .az-pub-btn + .az-pub-btn { border-left-color: #333; }
+.az-pub-btn.active { background: var(--global-theme-color); color: #fff; }
+[data-theme="dark"] .az-pub-btn.active { color: #fff; }
+
 .az-logo-syslabo { background: #fff; }
 [data-theme="dark"] .az-logo-syslabo { background: #2a2a2a; }
 </style>
@@ -99,10 +112,41 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2 style="margin-top: 4rem;">
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit"><strong>Selected Publications</strong></a>
-      </h2>
-      {% include selected_papers.liquid %}
+      <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; margin-top: 4rem; margin-bottom: 0.5rem;">
+        <h2 style="margin: 0;">
+          <a href="{{ '/publications/' | relative_url }}" style="color: inherit"><strong id="az-pubs-title">Selected Publications</strong></a>
+        </h2>
+        <div class="az-pub-toggle" role="group" aria-label="Filter publications">
+          <button type="button" class="az-pub-btn active" data-show="selected" aria-pressed="true">Selected</button>
+          <button type="button" class="az-pub-btn" data-show="all" aria-pressed="false">All</button>
+        </div>
+      </div>
+      <div class="publications" id="az-pubs-selected">
+        {% bibliography --group_by none --query @*[selected=true]* %}
+      </div>
+      <div class="publications" id="az-pubs-all" style="display: none;">
+        {% bibliography --group_by none %}
+      </div>
+      <script>
+        (function () {
+          var lists = { selected: document.getElementById('az-pubs-selected'), all: document.getElementById('az-pubs-all') };
+          var titles = { selected: 'Selected Publications', all: 'All Publications' };
+          var buttons = document.querySelectorAll('.az-pub-btn');
+          buttons.forEach(function (btn) {
+            btn.addEventListener('click', function () {
+              var show = btn.dataset.show;
+              buttons.forEach(function (b) {
+                var on = b === btn;
+                b.classList.toggle('active', on);
+                b.setAttribute('aria-pressed', on);
+              });
+              lists.selected.style.display = show === 'selected' ? '' : 'none';
+              lists.all.style.display = show === 'all' ? '' : 'none';
+              document.getElementById('az-pubs-title').textContent = titles[show];
+            });
+          });
+        })();
+      </script>
     {% endif %}
 
     <!-- Selected projects -->
