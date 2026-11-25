@@ -51,6 +51,9 @@ layout: default
 .az-pub-btn.active { background: var(--global-theme-color); color: #fff; }
 [data-theme="dark"] .az-pub-btn.active { color: #fff; }
 
+.az-coming-soon-title { margin-top: 1.5rem; font-size: 1.25rem; font-weight: 700; color: #999; }
+[data-theme="dark"] .az-coming-soon-title { color: #bbb; }
+
 .az-logo-syslabo { background: #fff; }
 [data-theme="dark"] .az-logo-syslabo { background: #2a2a2a; }
 </style>
@@ -127,6 +130,31 @@ layout: default
       <div class="publications" id="az-pubs-all" style="display: none;">
         {% bibliography --group_by none %}
       </div>
+      {% if site.data.coming_soon.size > 0 %}
+        <h3 class="az-coming-soon-title">Coming Soon</h3>
+        <div class="publications">
+          <ol class="bibliography">
+            {% for paper in site.data.coming_soon %}
+              <li>
+                <div class="row">
+                  <div class="col col-sm-2 abbr">
+                    <abbr class="badge rounded w-100">Soon</abbr>
+                  </div>
+                  <div class="col-sm-8">
+                    <div class="title">{{ paper.title }}</div>
+                    <div class="links">
+                      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+                    </div>
+                    <div class="abstract hidden">
+                      <p>{{ paper.abstract }}</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            {% endfor %}
+          </ol>
+        </div>
+      {% endif %}
       <script>
         (function () {
           var lists = { selected: document.getElementById('az-pubs-selected'), all: document.getElementById('az-pubs-all') };
