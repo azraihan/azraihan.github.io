@@ -54,6 +54,9 @@ layout: default
 .az-coming-soon-title { margin-top: 1.5rem; font-size: 1.25rem; font-weight: 700; color: #999; }
 [data-theme="dark"] .az-coming-soon-title { color: #bbb; }
 
+.az-ongoing-desc { margin: 0; font-size: 0.95rem; line-height: 1.6; color: #555; }
+[data-theme="dark"] .az-ongoing-desc { color: #bbb; }
+
 .az-logo-syslabo { background: #fff; }
 [data-theme="dark"] .az-logo-syslabo { background: #2a2a2a; }
 </style>
@@ -148,6 +151,25 @@ layout: default
                     <div class="abstract hidden">
                       <p>{{ paper.abstract }}</p>
                     </div>
+                  </div>
+                </div>
+              </li>
+            {% endfor %}
+          </ol>
+        </div>
+      {% endif %}
+      {% if site.data.ongoing_work.size > 0 %}
+        <h3 class="az-coming-soon-title">Ongoing Work</h3>
+        <div class="publications">
+          <ol class="bibliography">
+            {% for work in site.data.ongoing_work %}
+              <li>
+                <div class="row">
+                  <div class="col col-sm-2 abbr">
+                    <abbr class="badge rounded w-100">In Progress</abbr>
+                  </div>
+                  <div class="col-sm-8">
+                    <p class="az-ongoing-desc">{{ work.description }}</p>
                   </div>
                 </div>
               </li>
