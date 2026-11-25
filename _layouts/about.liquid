@@ -135,41 +135,7 @@ layout: default
       </div>
       {% if site.data.coming_soon.size > 0 %}
         <h3 class="az-coming-soon-title">Coming Soon</h3>
-        <div class="publications">
-          <ol class="bibliography">
-            {% for paper in site.data.coming_soon %}
-              <li>
-                <div class="row">
-                  <div class="col col-sm-2 abbr">
-                    <abbr class="badge rounded w-100">Soon</abbr>
-                    {% if paper.preview %}
-                      {% assign preview_path = paper.preview | prepend: '/assets/img/publication_preview/' %}
-                      {%
-                        include figure.liquid
-                        loading="eager"
-                        path=preview_path
-                        sizes = "200px"
-                        class="preview z-depth-1 rounded"
-                        zoomable=true
-                        avoid_scaling=true
-                        alt=paper.preview
-                      %}
-                    {% endif %}
-                  </div>
-                  <div class="col-sm-8">
-                    <div class="title">{{ paper.title }}</div>
-                    <div class="links">
-                      <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
-                    </div>
-                    <div class="abstract hidden">
-                      <p>{{ paper.abstract }}</p>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            {% endfor %}
-          </ol>
-        </div>
+        {% include coming_soon_papers.liquid %}
       {% endif %}
       {% if site.data.ongoing_work.size > 0 %}
         <h3 class="az-coming-soon-title">Ongoing Work</h3>
