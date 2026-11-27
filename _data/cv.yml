@@ -69,6 +69,26 @@ cv:
           <em>In Proceedings of the <a href='https://embodied-ai.org/cvpr2026/' target='_blank'>7th Annual Embodied AI (EAI) Workshop</a> at CVPR 2026</em><br>
           <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Non-archival</b></u> · <u><b>Poster</b></u>"
 
+      - title: >
+          Learning What to Break: Adaptive Soft Equivariance for Imperfect Symmetry Beyond Natural Images
+        date: "2026"
+        venue: "Under Review"
+        summary: "Ruwad Naswan<sup>*</sup>, <b>Abrar Zahin Raihan</b><sup>*</sup>, <a href='https://scholar.google.com/citations?user=isCWj28AAAAJ' target='_blank'>Md Ashiqur Rahman</a><br>
+          <span style='color:#e67e22;font-weight:600;'>Under Review</span>"
+
+      - title: >
+          Not All in One View: Bringing Evidence Together for Training-Free Chart and Table Question Answering
+        date: "2026"
+        venue: "Under Review"
+        summary: "<b>Abrar Zahin Raihan</b><sup>*</sup>, Aurchi Chowdhury<sup>*</sup>, <a href='https://scholar.google.com/citations?user=_9JYPbsAAAAJ' target='_blank'>Nazia Tasnim</a><br>
+          <span style='color:#e67e22;font-weight:600;'>Under Review</span>"
+
+      - title: >
+          MemPMI: Test-Time Auditing of World-Model Memory
+        date: "2026"
+        venue: "Under Review"
+        summary: "<b>Abrar Zahin Raihan</b><sup>*</sup>, Aurchi Chowdhury<sup>*</sup>, <a href='https://scholar.google.com/citations?user=_9JYPbsAAAAJ' target='_blank'>Nazia Tasnim</a><br>
+          <span style='color:#e67e22;font-weight:600;'>Under Review</span>"
 
     Experience:
       - company: SysModeler.ai
