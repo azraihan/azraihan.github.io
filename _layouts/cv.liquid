@@ -44,7 +44,7 @@ layout: default
         if (label && label.textContent.trim() === 'Professional Title') {
           const newRow = document.createElement('tr');
           newRow.innerHTML =
-            '<td class="p-1 pr-2 font-weight-bold"><b>Interests</b></td>' +
+            '<td class="p-1 pr-2 font-weight-bold"><b>Research Interests</b></td>' +
             '<td class="p-1 pl-2 font-weight-light">{{ site.data.cv.cv.interests }}</td>';
           row.insertAdjacentElement('afterend', newRow);
           break;
