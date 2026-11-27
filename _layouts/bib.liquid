@@ -241,6 +241,9 @@
       {% if entry.paper %}
         <a href="{{ entry.paper }}" class="btn btn-sm z-depth-0" role="button">Paper</a>
       {% endif %}
+      {% if entry.openreview %}
+        <a href="{{ entry.openreview }}" class="btn btn-sm z-depth-0" role="button">OpenReview</a>
+      {% endif %}
       {% if entry.code %}
         <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}

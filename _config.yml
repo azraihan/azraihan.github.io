@@ -355,6 +355,7 @@ enable_publication_badges:
 filtered_bibtex_keywords:
   [
     abbr,
+    openreview,
     abstract,
     additional_info,
     altmetric,
