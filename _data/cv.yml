@@ -1,7 +1,7 @@
 cv:
   name: Abrar Zahin Raihan
   label: "Senior-Year CSE Undergraduate at BUET"
-  interests: "NLP &middot; Information Retrieval &middot; Multimodal AI &middot; AI Systems &middot; Computer Vision &middot; Machine Learning &middot; Mechanistic Interpretability"
+  interests: "Computer Vision &middot; Representation Learning &middot; Multimodal Learning &middot; World Models &middot; Interpretability &middot; Geometric Deep Learning"
   email: zaheenraian@gmail.com
   location: Dhaka, Bangladesh
   image: ""
@@ -24,7 +24,7 @@ cv:
         start_date: "2022"
         end_date: "—"
         highlights:
-          - "Research interests: NLP, Information Retrieval, Computer Vision, Multimodal AI, AI Systems, Machine Learning, Mechanistic Interpretability"
+          - "Research interests: Computer Vision, Representation Learning, Multimodal Learning, World Models, Interpretability, Geometric Deep Learning"
 
       - institution: Notre Dame College
         location: Dhaka, Bangladesh

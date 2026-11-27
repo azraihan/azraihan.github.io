@@ -5,7 +5,7 @@ permalink: /
 subtitle: >
   <strong>Senior-Year CSE Undergraduate</strong> &nbsp;·&nbsp; <strong><a href="https://www.buet.ac.bd/" target="_blank">Bangladesh University of Engineering and Technology (BUET)</a></strong><br>
   <div style="margin-bottom: 1rem;"></div>
-  <code>NLP</code> · <code>Information Retrieval</code> · <code>Multimodal AI</code> · <code>AI Systems</code> · <code>Computer Vision</code> · <code>Machine Learning</code> · <code>Mechanistic Interpretability</code> 
+  <code>Computer Vision</code> · <code>Representation Learning</code> · <code>Multimodal Learning</code> · <code>World Models</code> · <code>Interpretability</code> · <code>Geometric Deep Learning</code>
   <div style="margin-bottom: 4rem;"></div>
 
 profile:
