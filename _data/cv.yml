@@ -6,7 +6,7 @@ cv:
   location: Dhaka, Bangladesh
   image: ""
   summary: >
-    A senior-year Computer Science and Engineering student at [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/), working at the intersection of **natural language processing**, **computer vision**, **multimodal AI**, and **AI systems**.
+    A senior-year Computer Science and Engineering student at [Bangladesh University of Engineering and Technology (BUET)](https://www.buet.ac.bd/), working on **computer vision**, **representation learning**, **multimodal learning**, and **world models**.
 
   social_networks:
     - network: GitHub
@@ -22,9 +22,10 @@ cv:
         area: Computer Science and Engineering (CSE)
         studyType: Bachelor of Engineering (B.Eng.)
         start_date: "2022"
-        end_date: "—"
+        end_date: "2027"
         highlights:
-          - "Research interests: Computer Vision, Representation Learning, Multimodal Learning, World Models, Interpretability, Geometric Deep Learning"
+          - "**CGPA** 3.92/4.00 · **Expected Graduation:** May 2027"
+          - "**Research interests:** Computer Vision, Representation Learning, Multimodal Learning, World Models, Interpretability, Geometric Deep Learning"
 
       - institution: Notre Dame College
         location: Dhaka, Bangladesh
