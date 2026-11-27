@@ -3,3 +3,7 @@
 # "lastname":
 #   - firstname: ["First", "F.", "F. M."]
 #     url: https://example.com/author-page
+
+"hakim":
+  - firstname: ["Sheikh Azizul", "Sheikh", "S. A."]
+    url: https://scholar.google.com/citations?user=Pwsti-YAAAAJ

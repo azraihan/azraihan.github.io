@@ -44,7 +44,8 @@ cv:
           MedCAR: Conflict-Aware Multi-Agent Reasoning for Multimodal Clinical AI
         date: "2026-12"
         venue: "WMHS & GenAI4Health @ NeurIPS 2026"
-        summary: "<em>In Proceedings of the <a href='https://wmhs-neurips.github.io/WMHS/' target='_blank'>First Workshop on World Models for High-Stakes Health (WMHS)</a> at NeurIPS 2026 (Atlanta),</em><br>
+        summary: "Mst. Fahmida Sultana Naznin, Niloy Kumar Mondal, Mohammad Ninad Mahmud Nobo, <b>Abrar Zahin Raihan</b>, <a href='https://scholar.google.com/citations?user=Pwsti-YAAAAJ' target='_blank'>Sheikh Azizul Hakim</a><br>
+          <em>In Proceedings of the <a href='https://wmhs-neurips.github.io/WMHS/' target='_blank'>First Workshop on World Models for High-Stakes Health (WMHS)</a> at NeurIPS 2026 (Atlanta),</em><br>
           and<br>
           <em>In Proceedings of the <a href='https://aihealth.ischool.utexas.edu/GenAI4HealthNeurips2026/' target='_blank'>Third Workshop on GenAI for Health: Agentic Systems, Clinical Trust, and Future Potential</a> at NeurIPS 2026 (Sydney)</em><br>
           <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Non-archival</b></u> · <u><b>Poster</b></u>
@@ -55,7 +56,8 @@ cv:
           and Training-Free Multilingual Steering
         date: "2026-07"
         venue: "MeLLM @ ACL 2026"
-        summary: "<em>In Proceedings of the <a href='https://mellm.org/' target='_blank'>1st Workshop on Multilinguality in the Era of Large Language Models (MeLLM)</a> at ACL 2026</em><br>
+        summary: "<b>Abrar Zahin Raihan</b><sup>*</sup>, Aurchi Chowdhury<sup>*</sup><br>
+          <em>In Proceedings of the <a href='https://mellm.org/' target='_blank'>1st Workshop on Multilinguality in the Era of Large Language Models (MeLLM)</a> at ACL 2026</em><br>
           <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Archival</b></u>"
 
       - title: >
@@ -63,7 +65,8 @@ cv:
           for Embodied Perception
         date: "2026-06"
         venue: "EAI @ CVPR 2026"
-        summary: "<em>In Proceedings of the <a href='https://embodied-ai.org/cvpr2026/' target='_blank'>7th Annual Embodied AI (EAI) Workshop</a> at CVPR 2026</em><br>
+        summary: "<b>Abrar Zahin Raihan</b><sup>*</sup>, Aurchi Chowdhury<sup>*</sup><br>
+          <em>In Proceedings of the <a href='https://embodied-ai.org/cvpr2026/' target='_blank'>7th Annual Embodied AI (EAI) Workshop</a> at CVPR 2026</em><br>
           <span style='color:#27ae60;font-weight:600;'>Accepted</span> · <u><b>Non-archival</b></u> · <u><b>Poster</b></u>"
 
 

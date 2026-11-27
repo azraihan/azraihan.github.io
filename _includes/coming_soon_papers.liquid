@@ -22,6 +22,12 @@
           </div>
           <div class="col-sm-8">
             <div class="title">{{ paper.title }}</div>
+            {% if paper.authors %}
+              <div class="author">{{ paper.authors }}</div>
+            {% endif %}
+            {% if paper.note %}
+              <div class="periodical">{{ paper.note }}</div>
+            {% endif %}
             <div class="links">
               <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
             </div>
