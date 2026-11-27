@@ -31,7 +31,7 @@ h2.bibliography {
 <p style="font-size: 0.85rem; color: #888; margin: 0.5rem 0 0;"><em><sup>*</sup> denotes equal contribution</em></p>
 
 {% if site.data.coming_soon.size > 0 %}
-<h2 class="bibliography">Coming Soon</h2>
+<h2 class="bibliography">Under Review</h2>
 {% include coming_soon_papers.liquid %}
 {% endif %}
 

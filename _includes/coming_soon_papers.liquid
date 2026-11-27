@@ -1,11 +1,11 @@
-<!-- Coming Soon papers from _data/coming_soon.yml; used on the About and Publications pages -->
+<!-- Under Review papers from _data/coming_soon.yml; used on the About and Publications pages -->
 <div class="publications">
   <ol class="bibliography">
     {% for paper in site.data.coming_soon %}
       <li>
         <div class="row">
           <div class="col col-sm-2 abbr">
-            <abbr class="badge rounded w-100">Soon</abbr>
+            <abbr class="badge rounded w-100">Under Review</abbr>
             {% if paper.preview %}
               {% assign preview_path = paper.preview | prepend: '/assets/img/publication_preview/' %}
               {%

@@ -1,6 +1,7 @@
 # Short problem descriptions shown under "Ongoing Work" on the About page (no titles; work in progress).
 - description: >-
-    Self-supervised methods like LeJEPA prevent representation collapse by forcing embeddings to follow a fixed isotropic Gaussian distribution.
-    I am studying what this constraint does to which features an encoder actually learns: with a fixed variance budget, features may compete for space,
-    and one that is merely stable across augmented views, but useless downstream, could crowd out a feature the task needs.
-    Feature suppression is well documented in contrastive learning, but whether it carries over to joint-embedding predictive architectures, which use no negatives at all, remains an open question.
+    Self-supervised methods avoid representation collapse in different ways: contrastive methods push each image away from others, VICReg regularizes the covariance of the embeddings, and LeJEPA constrains them to an isotropic Gaussian.
+    I am studying how these choices decide which features an encoder actually learns.
+    Objectives that reward agreement between augmented views prefer features that stay stable across views, whether or not those features are useful,
+    and constraining the embedding distribution can harden that preference into a competition for a fixed variance budget, where a stable but task-irrelevant feature crowds out one the task needs.
+    Feature suppression is well documented in contrastive learning; I am asking when it extends to self-supervised learning more broadly, including objectives that use no negatives at all, and how to prevent it.

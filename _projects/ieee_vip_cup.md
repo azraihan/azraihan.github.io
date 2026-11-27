@@ -66,7 +66,7 @@ Find more [here](https://2025.ieeeicip.org/wp-content/uploads/sites/679/2025-VIP
 ---
 
 ## Faculty supervisor
-[Dr. Md. Shamsuzzöha Bayzid (BUET CSE)](https://cse.buet.ac.bd/faculty/faculty_detail/bayzid)
+[Dr. Md. Shamsuzzoha Bayzid (BUET CSE)](https://cse.buet.ac.bd/faculty/faculty_detail/bayzid)
 
 ---
 
