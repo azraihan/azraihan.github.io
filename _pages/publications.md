@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: publications by categories in reversed chronological order.
+description: Publications and papers under review by Abrar Zahin Raihan.
 nav: true
 nav_order: 3
 ---

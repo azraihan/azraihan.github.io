@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A selection of projects involving deep learning competition works and engineering scalable AI systems.
+description: Competition projects in computer vision, multimodal learning, speech and language processing, and scalable systems.
 nav: true
 nav_order: 4
 ---
